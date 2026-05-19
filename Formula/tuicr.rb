@@ -1,28 +1,28 @@
 class Tuicr < Formula
   desc "Terminal UI for Code Reviews - review AI-generated diffs like a GitHub PR"
   homepage "https://github.com/agavra/tuicr"
-  version "0.14.1"
+  version "0.15.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/agavra/tuicr/releases/download/v0.14.1/tuicr-0.14.1-x86_64-apple-darwin.tar.gz"
-      sha256 "c49d74b86f3fd451e56f00993dd6fea206bf05e1c64feabc0884bcb75dfd0715"
+      url "https://github.com/agavra/tuicr/releases/download/v0.15.0/tuicr-0.15.0-x86_64-apple-darwin.tar.gz"
+      sha256 "8e4e9adacf5c9668412a1ec5b832daacc12d8d1adf4a1efb675406d1e7931b26"
     end
     on_arm do
-      url "https://github.com/agavra/tuicr/releases/download/v0.14.1/tuicr-0.14.1-aarch64-apple-darwin.tar.gz"
-      sha256 "55174ff0e6fca67ddb5f3c5b014d77b5cf5d6ee242f9e437586230de549d0993"
+      url "https://github.com/agavra/tuicr/releases/download/v0.15.0/tuicr-0.15.0-aarch64-apple-darwin.tar.gz"
+      sha256 "fdaecea0dbb8e364ad5b04008c9f1ec0c53236f260c1272a5590bc04242c67ea"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/agavra/tuicr/releases/download/v0.14.1/tuicr-0.14.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "62862255f2bdda0731411a74c14f96b704621f2c8c56f19ba8a4b5d3c766f521"
+      url "https://github.com/agavra/tuicr/releases/download/v0.15.0/tuicr-0.15.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b46535feb3490832234b1dccc2c573747988ec2547bbe205559617eadae0e3e1"
     end
     on_arm do
-      url "https://github.com/agavra/tuicr/releases/download/v0.14.1/tuicr-0.14.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d81d52e5b7b1bd85e32dd037bf67c49e8df34e977121c8b301baea9cb08d4128"
+      url "https://github.com/agavra/tuicr/releases/download/v0.15.0/tuicr-0.15.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "2ad7c6cf389d4cf3b4ddda502d168d377bb04020c67f48d0a47b38aff751b33f"
     end
   end
 
